@@ -1,0 +1,44 @@
+.heading {
+    color: #2ADACC;
+    font-family: 'poppins', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.subHeading {
+    display: flex;
+
+    color: #fff;
+    font-family: 'inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.description {
+    color: #D9F7F5;
+    font-family: 'inter', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.joinBtn {
+    font-family: 'nunito', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #2ADACC;
+}
+
+.pageBack {
+    background: #003358;
+    height: 100vh;
+
+}
+
+.back {
+    margin-top: 30px;
+    background-image: url("./assets/images/boat.svg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
