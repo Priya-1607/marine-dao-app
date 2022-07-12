@@ -3,22 +3,21 @@ import boatGroup from "../assets/images/boat-group.svg";
 
 function CargoShip() {
     return (
-        <div className="cargoShip grid grid-cols-2">
-
-                <div className="left">
-
-                    <h1>Cargo Ships</h1>
+        <div className="cargoShip diagonal-end grid grid-cols-2">
+            <div className="left">
+                <div className="ineer">
 
 
-                    <h2>Fundrising DAO</h2>
-                    <p>Mint an NFT,become a member of the community,divide profits and partake a role in the future of the company!</p>
+                      <span className="top" >Cargo Ships</span><br/>
 
+
+                    <span className="top-2">Fundrising DAO</span><br/>
+                    <p className="top-3">Mint an NFT,become a member of the community,divide profits and partake a role in the future of the company!</p>
 
             </div>
+            </div>
 
-
-
-            <div><img src={boatGroup}/></div>
+            <div className="right"><img src={boatGroup}/></div>
 
         </div>
 

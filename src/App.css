@@ -1,16 +1,78 @@
+.cargoShip{background:rgba(0, 51, 88, 1);
 
 
-.cargoShip{
-
-    background-color:rgba(0, 51, 88, 1);
 
 
+}
+.left{
+    background-image: linear-gradient(313.99deg, #1D85BA 50.11%, rgba(37, 127, 174, 0) 97.5%);
+    z-index: 1; width: 126%; clip-path: polygon(0% 94%, 94% 0%, 0% 0%);
+}
+.right {
+    z-index: 1;
+}
+
+.inner{
+    padding: 20px;
+}
+.diagonal-end {
+    position: relative;
+}
+.diagonal-end::after {
+    content: "";
+    display: block;
+    border-right: 100rem solid rgba(0, 51, 88, 1);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.top{
+
+    padding-left:97px;
+    margin-top: 3rem;
+    font-family: Poppins;
+    color: rgba(255, 255, 255, 1);
+
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.top-2{
+    padding-left:97px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:rgba(217, 247, 245, 1);
+
+}
+
+.top-3{
+    top: 0.75rem;
+    padding-top: 137px;
+    font-family: 'Inter';
+    color: rgba(217, 247, 245, 1);
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 97px;
 }
 
 
 
 
 
+
+
+
+
+/*background: linear-gradient(313.99deg, #1D85BA 50.11%, rgba(37, 127, 174, 0) 97.5%);*/
 
 
 
