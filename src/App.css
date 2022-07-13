@@ -10,9 +10,11 @@
 
 .left{
     background-image: linear-gradient(313.99deg, #1D85BA 50.11%, rgba(37, 127, 174, 0) 97.5%);
-    z-index: 1; width: 171%; clip-path: polygon(0% 94%, 94% 0%, 0% 0%);
+    z-index: 1; width: 171%; clip-path: polygon(0% 97%, 75% 0%, 0% 0%);
 }
 .right {
+    padding-left: 10px;
+    width: 45rem;
     z-index: 1;
 }
 
@@ -30,34 +32,56 @@
 
     font-size: 70px;
     font-weight: 800;
-    letter-spacing: 0em;
+
     text-align: left;
 
 }
 .top-2{
+    padding-top: 1.25rem;
     padding-left:3rem;
     font-family: Inter;
     font-size: 40px;
     font-weight: 700;
-    line-height: 58px;
-    letter-spacing: 0em;
+    line-height: 3rem;
     text-align: left;
     color:rgba(217, 247, 245, 1);
 
 }
 
 .top-3{
-   /* top: 0.75rem;*/
-    padding-top: 37px;
+
+    padding-top: 1.25rem;
     font-family: 'Inter';
     color: rgba(217, 247, 245, 1);
-    font-size:30px;
+    font-size:26px;
     font-weight: 300;
-    line-height: 46px;
-    letter-spacing: 0em;
+    line-height: 30px;
+
     text-align: left;
     padding-left: 3rem;
 }
+.back{
+    height:100%;
+    width:100%;
+    background-color:#043580;
+}
+.main{
+    margin-top: 3rem;
+    padding-right: 3rem;
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: right;
+    color: #32FFEF;
+}
+.p1{
+    font-family: Inter;
+font-size: 40px;
+font-weight: 300;
+line-height: 3rem;
+
+text-align: right;}
+
 
 
 

@@ -17,7 +17,7 @@ function CargoShip() {
             </div>
             </div>
 
-            <div className="right flex justify-center content-center"><img src={boatGroup}/></div>
+            <div className="right "><img  src={boatGroup}/></div>
 
         </div>
 
