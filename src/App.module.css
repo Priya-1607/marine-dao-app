@@ -6,8 +6,9 @@
 }
 
 .subHeading {
+    position: absolute;
+    top: 150px;
     display: flex;
-
     color: #fff;
     font-family: 'inter', sans-serif;
     font-size: 40px;
@@ -16,6 +17,8 @@
 }
 
 .description {
+    position: absolute;
+    top: 300px;
     color: #D9F7F5;
     font-family: 'inter', sans-serif;
     font-size: 26px;
@@ -23,6 +26,8 @@
 }
 
 .joinBtn {
+    position: absolute;
+    top: 530px;
     font-family: 'nunito', sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -31,14 +36,6 @@
 
 .pageBack {
     background: #003358;
-    height: 100vh;
+    position: relative;
 
-}
-
-.back {
-    margin-top: 30px;
-    background-image: url("./assets/images/boat.svg");
-    background-position: right;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
