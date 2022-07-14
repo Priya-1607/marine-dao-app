@@ -62,11 +62,16 @@
      background: #043580;
     text-align: right;
 
+
 }
-.img{
+
+/*.img{
+    width: 20%;
+    float:left;
+
     margin-top: 90px;
     margin-left:3rem;
-}
+}*/
 .road {
 
 
@@ -80,9 +85,12 @@
 
 }
 .map{
-    margin-top: -20px;
+    margin-top: -32px;
+    margin-left: -199px;
 }
+
 .phase{
+    padding-left: 267px;
     padding-top: 15px;
     font-family: Inter;
     font-size: 44px;
@@ -97,7 +105,7 @@ margin-right: 5rem;
 }
 .para{
     padding-top: 15px;
-
+    padding-left: 244px;
     font-family: Inter;
     font-size: 28px;
     font-weight: 300;
@@ -105,13 +113,25 @@ margin-right: 5rem;
     letter-spacing: 0em;
     text-align: center;
     color: #D9F7F5;
-;
+
 
 }
 .leftPara{
     text-align: center;
 
 }
+.img {
+    position: relative;
+    width: 50%;
+    float: left;
+
+    margin-left: 3rem;}
+.wave{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
 
 
 

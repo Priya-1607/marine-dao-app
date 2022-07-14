@@ -6,8 +6,8 @@ function RoadMap() {
     return (
 
             <div className="ShipMain">
-                <div className="mainSub grid grid-cols-2">
-            <div className="img"><img src={ships}/></div>
+
+            <label className="img "><img src={ships}/></label>
 
                 <div className="subHead">
             <p className="road">Road <p className="map">Map</p></p>
@@ -18,10 +18,9 @@ function RoadMap() {
             <span className="phase">Phase 3</span><p className="para">1000/1500 NFTs<br/>Drop daily until February 2023</p>
             <span className="phase">Phase 4</span><p className="para">1500/1500 NFTs.Final release.<br/>Promote in April 2023</p>
                     </div>
-                </div>
 
                 </div>
-                <img src={wave}/>
+              <label className="wave"><img src={wave}/></label>
 
 
         </div>
