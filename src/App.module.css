@@ -94,3 +94,47 @@
     font-size: 28px;
     font-weight: 200;
 }
+
+/*RoadMapFirst*/
+.roadmapBg {
+    background-color: #043580;
+    width: 100%;
+}
+
+.roadmapOverlay:after {
+    content: '';
+    box-shadow: 48rem -2rem 218px -34px #0085ff;
+    height: 650px;
+    position: absolute;
+    opacity: 0.5;
+    width: 458px;
+    left: 20px;
+
+    border-radius: 50%;
+}
+
+.phases {
+    color: #D9F7F5;
+    font-size: 26px;
+    padding: 6px 0;
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+}
+
+.desc {
+    color: #D9F7F5;
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+    font-weight: 200;
+    line-height: 1.4rem;
+
+}
+
+.bigRelease {
+    color: #2ADACC;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'poppins', sans-serif;
+
+}
