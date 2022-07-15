@@ -58,9 +58,13 @@
     text-align: left;
     padding-left: 3rem;
 }
+
 .ShipMain{
+    height: 100%;
+    width: 100%;
      background: #043580;
-    text-align: right;
+    position: relative;
+
 
 
 }
@@ -74,63 +78,72 @@
 }*/
 .road {
 
-
+    padding-top: 6rem;
     color: #63E3FF;
     font-family: Poppins;
     font-size: 70px;
     font-weight: 700;
-    line-height: 100px;
-
     text-align: center;
+
+    right: 4rem;
 
 }
 .map{
-    margin-top: -32px;
-    margin-left: -199px;
+    position: relative;
+    /* margin-top: 0rem; */
+    margin-right: 15rem;
+    top: -3.2rem;
 }
 
 .phase{
-    padding-left: 267px;
-    padding-top: 15px;
+
+    position: relative;
+    z-index: 1;
+    /* margin-top: -21px; */
+    /* margin-right: -193px; */
     font-family: Inter;
-    font-size: 44px;
+    font-size: 30px;
     font-weight: 700;
-    line-height: 53px;
-    letter-spacing: 0em;
-    text-align: center;
-   color: #D9F7F5;
-}
-.leftPara{
-margin-right: 5rem;
-}
-.para{
-    padding-top: 15px;
-    padding-left: 244px;
-    font-family: Inter;
-    font-size: 28px;
-    font-weight: 300;
-    line-height: 34px;
-    letter-spacing: 0em;
     text-align: center;
     color: #D9F7F5;
-
-
+    top: -5.4rem;
+    left: -11px;
 }
-.leftPara{
-    text-align: center;
 
+.para{
+    top: -4rem;
+    /* padding-top: 20px; */
+    position: relative;
+    z-index: 1;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    color: #D9F7F5;
+}
+
+
+
+.leftPara{
+    justify-content: end;
+
+    text-align: center;
 }
 .img {
+    margin-left: 5rem;
+    z-index: 1;
     position: relative;
-    width: 50%;
+    width: 47%;
     float: left;
+    padding-top: 2rem;
 
-    margin-left: 3rem;}
+    }
 .wave{
-    position: relative;
-    top: 0px;
-    left: 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
+
 
 
 
