@@ -1,18 +1,17 @@
 .cargoShip{
-
     height: 100%;
     background:rgba(0, 51, 88, 1);
-
-
-
 
 }
 
 .left{
+
     background-image: linear-gradient(313.99deg, #1D85BA 50.11%, rgba(37, 127, 174, 0) 97.5%);
     z-index: 1; width: 171%; clip-path: polygon(0% 97%, 75% 0%, 0% 0%);
 }
 .right {
+    margin-left:-200px;
+    position:relative;
     padding-left: 10px;
     width: 45rem;
     z-index: 1;
@@ -56,15 +55,86 @@
     font-size:26px;
     font-weight: 300;
     line-height: 30px;
-
     text-align: left;
     padding-left: 3rem;
 }
-.back{
-    height:100%;
-    width:100%;
-    background-color:#043580;
+.ShipMain{
+     background: #043580;
+    text-align: right;
+
+
 }
+
+/*.img{
+    width: 20%;
+    float:left;
+
+    margin-top: 90px;
+    margin-left:3rem;
+}*/
+.road {
+
+
+    color: #63E3FF;
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 100px;
+
+    text-align: center;
+
+}
+.map{
+    margin-top: -32px;
+    margin-left: -199px;
+}
+
+.phase{
+    padding-left: 267px;
+    padding-top: 15px;
+    font-family: Inter;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+   color: #D9F7F5;
+}
+.leftPara{
+margin-right: 5rem;
+}
+.para{
+    padding-top: 15px;
+    padding-left: 244px;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #D9F7F5;
+
+
+}
+.leftPara{
+    text-align: center;
+
+}
+.img {
+    position: relative;
+    width: 50%;
+    float: left;
+
+    margin-left: 3rem;}
+.wave{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+
 
 
 

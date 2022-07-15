@@ -5,6 +5,7 @@ import boatGroup from './assets/images/boat-group.svg'
 import MarineDAO from "./components/MarineDAO";
 import CargoShip from "./components/CargoShip";
 import MarineDaoShip from "./components/MarineDaoShip";
+import RoadMap from "./components/RoadMap";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
        <MarineDAO/>
         <CargoShip/>
         <MarineDaoShip/>
+        <RoadMap/>
     </div>
   );
 }
