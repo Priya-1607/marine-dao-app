@@ -3,6 +3,7 @@
     font-family: 'poppins', sans-serif;
     font-size: 70px;
     font-weight: 800;
+
 }
 
 .subHeading {
@@ -39,4 +40,57 @@
     background: #003358;
     position: relative;
 
+}
+
+/*Marine DAO Ship*/
+
+.marineDaoShip {
+    background: #043580;
+    height: 100%;
+}
+
+.marineDaoShip:after {
+    content: '';
+    box-shadow: 20px 378px 218px -34px #0085ff;
+    height: 200px;
+    position: absolute;
+    width: 358px;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+}
+
+.heading1 {
+    color: #32FFEF;
+    font-family: 'poppins', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    text-shadow: 2px 8px 20px rgba(0, 0, 0, 0.48);
+
+
+}
+
+.overlay {
+
+
+}
+
+.overlay:after {
+    content: '';
+    box-shadow: 20px -463px 218px -34px #0085ff;
+    height: 200px;
+    position: absolute;
+    width: 358px;
+    bottom: 0;
+    right: 300px;
+    border-radius: 50%;
+}
+
+.desc {
+    display: flex;
+    justify-content: flex-end;
+    color: #D9F7F5;
+    font-family: 'inter', sans-serif;
+    font-size: 28px;
+    font-weight: 200;
 }
