@@ -66,7 +66,6 @@
     position: relative;
 
 
-
 }
 
 /*.img{
@@ -79,7 +78,8 @@
 .road {
     position: relative;
     bottom: -5rem;
-    padding-right: 9rem;
+    right: -11rem;
+    padding-right: 8rem;
     color: #63E3FF;
     font-family: Poppins;
     font-size: 70px;
@@ -112,6 +112,7 @@
     left: -40px;
 }
 
+
 .para{
     top: -4rem;
     /* padding-top: 20px; */
@@ -127,7 +128,7 @@
 
 
 
-.img {
+.imgShip{
     margin-left: 7rem;
     z-index: 1;
     position: absolute;
@@ -152,12 +153,12 @@
 /*
 second map
  */
-.grid {
-
-
+.subMain {
     display: grid;
     justify-content: space-evenly;
     justify-items: center;
+    align-items: end;
+    padding-bottom: 4rem;
 }
 .grid-rows-4 {
     grid-template-rows: repeat(4, minmax(0, 1fr));
@@ -187,16 +188,34 @@ second map
     color: #D9F7F5;
 }
 .main{
+
     background: #043580;
     height:100%;
 }
-.pb-40 {
-    padding-bottom: 14rem;
-}
+
 .wa{
     display: block;
     vertical-align: middle;
 
+}
+.ship2{
+    vertical-align: middle;
+}
+
+
+
+.lightHouseNoShadow{
+    justify-content: flex-start;
+    display: grid;
+    padding-bottom: 4rem;
+    align-items: center;
+    justify-items: center;
+
+}
+.subMain {
+    display: grid;
+    justify-items: center;
+    padding-bottom: 4rem;
 }
 
 

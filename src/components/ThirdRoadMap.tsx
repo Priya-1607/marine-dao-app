@@ -8,7 +8,7 @@ function ThirdRoadMap() {
 
             <div className="ShipMain">
 
-            <label className="img origin-center rotate-3  "><img src={ships} width={1000}/></label>
+            <label className="img origin-center rotate-3 imgShip  "><img src={ships} width={1000}/></label>
 
                 <div className="subHead">
 
@@ -22,7 +22,7 @@ function ThirdRoadMap() {
                     </div>
 
                 </div>
-              <label className="wave"><img src={wave}/></label>
+              <label className="wave opacity-40"><img src={wave}/></label>
 
 
         </div>
