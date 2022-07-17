@@ -3,8 +3,9 @@ import './App.css';
 import MarineDAO from "./components/MarineDAO";
 import CargoShip from "./components/CargoShip";
 import MarineDaoShip from "./components/MarineDaoShip";
-import RoadMap from "./components/RoadMap";
+import ThirdRoadMap from "./components/ThirdRoadMap";
 import RoadmapFirst from "./components/RoadmapFirst";
+import RoadMapSecond from "./components/RoadMapSecond";
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
        <MarineDAO/>
         <CargoShip/>
         <MarineDaoShip/>
-        <RoadMap/>
+        <ThirdRoadMap/>
         <RoadmapFirst/>
+        <RoadMapSecond/>
     </div>
   );
 }

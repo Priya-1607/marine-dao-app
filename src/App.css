@@ -77,22 +77,23 @@
     margin-left:3rem;
 }*/
 .road {
-
-    padding-top: 6rem;
+    position: relative;
+    bottom: -5rem;
+    padding-right: 9rem;
     color: #63E3FF;
     font-family: Poppins;
     font-size: 70px;
     font-weight: 700;
-    text-align: center;
-
-    right: 4rem;
-
 }
+
+
 .map{
     position: relative;
+    bottom: -29px;
     /* margin-top: 0rem; */
-    margin-right: 15rem;
-    top: -3.2rem;
+    /* margin-right: 15rem; */
+    top: -2.5rem;
+    right: 6rem;
 }
 
 .phase{
@@ -102,12 +103,13 @@
     /* margin-top: -21px; */
     /* margin-right: -193px; */
     font-family: Inter;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     text-align: center;
     color: #D9F7F5;
-    top: -5.4rem;
-    left: -11px;
+
+    top: -4.4rem;
+    left: -40px;
 }
 
 .para{
@@ -116,7 +118,7 @@
     position: relative;
     z-index: 1;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 300;
     text-align: center;
     color: #D9F7F5;
@@ -124,30 +126,78 @@
 
 
 
-.leftPara{
-    justify-content: end;
 
-    text-align: center;
-}
 .img {
-    margin-left: 5rem;
+    margin-left: 7rem;
     z-index: 1;
-    position: relative;
-    width: 47%;
+    position: absolute;
+    width: 51%;
     float: left;
-    padding-top: 2rem;
+    padding-top: 5rem
+}
+.subHead{
+    padding-bottom:2rem ;
+    padding-left: 55rem;
+}
 
-    }
 .wave{
     position: absolute;
-    bottom: 0;
+    bottom: -3rem;
     left: 0;
 }
 
 
 
 
+/*
+second map
+ */
+.grid {
 
+
+    display: grid;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.grid-rows-4 {
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+.phase2 {
+    position: relative;
+    z-index: 1;
+    /* margin-top: -21px; */
+    /* margin-right: -193px; */
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: #D9F7F5;
+    /* top: -4.4rem; */
+    /* left: -40px; */
+}
+.para2 {
+    /* top: -4rem; */
+    /* padding-top: 20px; */
+    position: relative;
+    z-index: 1;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: #D9F7F5;
+}
+.main{
+    background: #043580;
+    height:100%;
+}
+.pb-40 {
+    padding-bottom: 14rem;
+}
+.wa{
+    display: block;
+    vertical-align: middle;
+
+}
 
 
 
