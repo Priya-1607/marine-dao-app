@@ -10,7 +10,7 @@ function RoadmapFirst() {
     return (
 
         <div className={`${styles.roadmapBg} flex justify-center content-center px-12 pt-12 pb-32`}>
-            <div className='absolute left-20 p-24'>
+            <div className='absolute p-24'>
                 <img src={line} width={1100}/>
 
             </div>
@@ -20,6 +20,7 @@ function RoadmapFirst() {
                     <h1 className={`${styles.heading} relative left-16`}>Road</h1>
                     <h1 className={`${styles.heading} relative top-16 right-52`}>Map</h1>
                 </div>
+
                 <div className={'text-center grid content-end'}>
                     <h2 className={`${styles.phases}`}>Phase 1</h2>
                     <span className={'flex justify-center'}>
