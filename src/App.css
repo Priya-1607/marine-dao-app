@@ -1,6 +1,7 @@
 .cargoShip{
     height: 100%;
     background:rgba(0, 51, 88, 1);
+    justify-items: end;
 
 }
 
@@ -81,6 +82,8 @@
 }
 .roadGap{
     justify-items: center;
+    justify-content: end;
+    padding-right: 4rem;
 }
 
 .map{
@@ -124,7 +127,7 @@
 }
 .subHead{
     padding-bottom:2rem ;
-    padding-left: 55rem;
+
 }
 
 .wave{

@@ -6,7 +6,7 @@ import anchor from "../assets/images/anchor.svg";
 function ThirdRoadMap() {
     return (
 
-            <div className="ShipMain">
+            <div className="ShipMain block">
 
             <label className="img origin-center rotate-3 imgShip  "><img src={ships} width={1000}/></label>
 
