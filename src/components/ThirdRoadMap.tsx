@@ -12,7 +12,7 @@ function ThirdRoadMap() {
 
                 <div className="subHead">
 
-                    <div className='grid grid-rows-9 relative grid-flow-row gap-4'>
+                    <div className='grid grid-rows-9 relative grid-flow-row gap-4 roadGap'>
                         <p className="road">Road <p className="map">Map</p></p>
                         <p className="phase2 grid-rows-4 row-span-1">Phase 1</p><p className="para2">200/1500 NFTs<br/>Drop daily until September 2022</p>
                         <p className="phase2">Phase 2</p><p className="para2">500/1500 NFTs<br/>Drop daily until December 2022</p>

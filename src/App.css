@@ -78,14 +78,16 @@
 .road {
     position: relative;
     bottom: -5rem;
-    right: -11rem;
+
     padding-right: 8rem;
     color: #63E3FF;
     font-family: Poppins;
     font-size: 70px;
     font-weight: 700;
 }
-
+.roadGap{
+    justify-items: center;
+}
 
 .map{
     position: relative;
@@ -199,6 +201,8 @@ second map
 
 }
 .ship2{
+    margin-left: 23rem;
+    margin-top: 25rem;
     vertical-align: middle;
 }
 
@@ -207,7 +211,7 @@ second map
 .lightHouseNoShadow{
     justify-content: flex-start;
     display: grid;
-    padding-bottom: 4rem;
+    padding-bottom: 24rem;
     align-items: center;
     justify-items: center;
 
@@ -216,6 +220,14 @@ second map
     display: grid;
     justify-items: center;
     padding-bottom: 4rem;
+    align-items: start;
+}
+.left-20 {
+    left: 11rem;
+    top: 4rem;
+}
+.anc{
+    justify-items: center;
 }
 
 

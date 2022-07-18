@@ -1,10 +1,11 @@
 import React from 'react';
-import line from '../assets/images/line.svg'
+import lineshort from '../assets/images/line-short.svg'
 import anchor from '../assets/images/anchor.svg'
 import ship from '../assets/images/ship.svg'
 import lightHouseNoShadow from '../assets/images/lighthouse-no-shadow.svg'
-import wave from "../assets/images/waves.svg";
+
 import waves from "../assets/images/waves.svg";
+import styles from "../App.module.css";
 
 function RoadMapSecond() {
     return (
@@ -12,15 +13,23 @@ function RoadMapSecond() {
             <div className="main">
             <div className='grid grid-cols-2 col-span-2 relative pb-40 justify-center content-start pl-12 subMain'>
                 <div className="grid grid-cols-2 noSpace">
+                    <div className={`${styles.roadmapOverlay} flex`}>
                 <img className={"lightHouseNoShadow"} src={lightHouseNoShadow} width={130}/>
-                    <h1>Road</h1>
-                    <h1 >Map</h1>
-                    <img src={line} width={400}/>
-                    <img className={"ship2"} src={ship} width={160}/>
-                </div>
-                <div className='grid grid-rows-9 relative grid-flow-row gap-4'>
 
-                    <div className={'grid grid-cols-3 gap-y-48 space-between'}>
+                        <h1 className={`${styles.heading} relative left-16`}>Road</h1>
+                        <h1 className={`${styles.heading} relative top-16 right-52`}>Map</h1>
+                    </div>
+                    <div className='absolute left-20 pr-10 rotate-[348deg;]'>
+                        <img src={lineshort} width={700}/>
+
+
+                    </div>
+
+                    <div><img className={"ship2 p-3 py-3 opacity-100"} src={ship} width={200}/></div>
+                </div>
+                <div className='grid grid-rows-9 relative grid-flow-row gap-4 anc'>
+
+                    <div className={'grid grid-cols-1 gap-y-48 space-between'}>
                     <img className={"anchor"} src={anchor} width={80}/>
                     </div>
 
@@ -31,6 +40,7 @@ function RoadMapSecond() {
                     <p className="phase2">Phase 4</p><p className="para2">1500/1500 NFTs.Final release.<br/>Promote in April 2023</p>
 
                 </div>
+
                 <div className={'absolute bottom-0 right-0'}>
                     <img className={'wa opacity-40'} src={waves}/>
                 </div>
