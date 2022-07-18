@@ -68,13 +68,7 @@
 
 }
 
-/*.img{
-    width: 20%;
-    float:left;
 
-    margin-top: 90px;
-    margin-left:3rem;
-}*/
 .road {
     position: relative;
     bottom: -5rem;
@@ -92,8 +86,6 @@
 .map{
     position: relative;
     bottom: -29px;
-    /* margin-top: 0rem; */
-    /* margin-right: 15rem; */
     top: -2.5rem;
     right: 6rem;
 }
@@ -102,22 +94,17 @@
 
     position: relative;
     z-index: 1;
-    /* margin-top: -21px; */
-    /* margin-right: -193px; */
     font-family: Inter;
     font-size: 25px;
     font-weight: 700;
     text-align: center;
     color: #D9F7F5;
-
     top: -4.4rem;
     left: -40px;
 }
 
-
 .para{
     top: -4rem;
-    /* padding-top: 20px; */
     position: relative;
     z-index: 1;
     font-family: Inter;
@@ -126,9 +113,6 @@
     text-align: center;
     color: #D9F7F5;
 }
-
-
-
 
 .imgShip{
     margin-left: 7rem;
@@ -149,12 +133,6 @@
     left: 0;
 }
 
-
-
-
-/*
-second map
- */
 .subMain {
     display: grid;
     justify-content: space-evenly;
@@ -168,19 +146,14 @@ second map
 .phase2 {
     position: relative;
     z-index: 1;
-    /* margin-top: -21px; */
-    /* margin-right: -193px; */
     font-family: Inter;
     font-size: 25px;
     font-weight: 700;
     text-align: center;
     color: #D9F7F5;
-    /* top: -4.4rem; */
-    /* left: -40px; */
 }
 .para2 {
-    /* top: -4rem; */
-    /* padding-top: 20px; */
+
     position: relative;
     z-index: 1;
     font-family: Inter;
@@ -205,8 +178,6 @@ second map
     margin-top: 25rem;
     vertical-align: middle;
 }
-
-
 
 .lightHouseNoShadow{
     justify-content: flex-start;
@@ -237,8 +208,6 @@ second map
 
 
 
-
-/*background: linear-gradient(313.99deg, #1D85BA 50.11%, rgba(37, 127, 174, 0) 97.5%);*/
 
 
 
