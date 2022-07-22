@@ -1,0 +1,52 @@
+image: registry.gitlab.com/drops-token/drops-backend:latest
+
+services:
+  - mysql:5.7
+
+variables:
+  MYSQL_DATABASE: homestead
+  MYSQL_ROOT_PASSWORD: secret
+  DB_HOST: mysql
+  DB_USERNAME: root
+
+stages:
+  - deploy_dev
+  - deploy_prod
+
+deploy_dev:
+  stage: deploy_dev
+  script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - eval $(ssh-agent -s)
+    - ssh-add <(echo "$SSH_PRIVATE_KEY")
+    - mkdir -p ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+
+    - ~/.config/composer/vendor/bin/envoy run deploy --commit="$CI_COMMIT_SHA" --branch="$CI_COMMIT_BRANCH" --env=dev --serverIp=$DEPLOY_SERVER
+  environment:
+    name: stage
+    url: https://uc.bucle.dev
+  only:
+    - dev
+    - main
+    - tailwindcss
+
+deploy_prod:
+  stage: deploy_prod
+  script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - eval $(ssh-agent -s)
+    - ssh-add <(echo "$SSH_PRIVATE_KEY_PROD")
+    - mkdir -p ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+
+    - ~/.config/composer/vendor/bin/envoy run deploy --commit="$CI_COMMIT_SHA" --tag="$CI_COMMIT_TAG" --env=production --serverIp=$DEPLOY_SERVER_PROD
+  environment:
+    name: production
+    url: https://uc.bucle.dev
+  only:
+    - tags
+    - master
+  except:
+    - branches
+  when: manual
