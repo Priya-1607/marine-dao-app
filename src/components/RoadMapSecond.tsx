@@ -11,7 +11,7 @@ function RoadMapSecond() {
     return (
         <div>
             <div className="main">
-            <div className='grid grid-cols-2 col-span-2 relative pb-40 justify-center content-start pl-12 subMain'>
+            <div className='grid grid-cols-2 col-span-2 relative  justify-center content-start pl-12 subMain'>
                 <div className="grid grid-cols-2 noSpace">
                     <div className={`${styles.roadmapOverlay} flex`}>
                 <img className={"lightHouseNoShadow"} src={lightHouseNoShadow} width={130}/>
@@ -19,13 +19,13 @@ function RoadMapSecond() {
                         <h1 className={`${styles.heading} relative left-16`}>Road</h1>
                         <h1 className={`${styles.heading} relative top-16 right-52`}>Map</h1>
                     </div>
-                    <div className='absolute left-20 pr-10 rotate-[348deg;]'>
-                        <img src={lineshort} width={700}/>
+                    <div className='absolute lg:top-32 left-52 md:left-28 md:mt-44 pr-10 rotate-[358deg;] md:rotate-[396deg;]'>
+                        <img src={lineshort} className={"lg:w-[500px] md:w-[400px] "}/>
 
 
                     </div>
 
-                    <div><img className={"ship2 p-3 py-3 opacity-100"} src={ship} width={200}/></div>
+                    <div><img className={"ship2 md:ml-14 lg:ml-36 p-3 py-3 opacity-100"} src={ship} width={200}/></div>
                 </div>
                 <div className='grid grid-rows-9 relative grid-flow-row gap-4 anc'>
 

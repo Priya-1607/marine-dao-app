@@ -1,3 +1,4 @@
+
 .cargoShip{
     height: 100%;
     background:rgba(0, 51, 88, 1);
@@ -7,14 +8,20 @@
 
 .left{
 
-    background-image: linear-gradient(313.99deg, #1D85BA 50.11%, rgba(37, 127, 174, 0) 97.5%);
-    z-index: 1; width: 171%; clip-path: polygon(0% 97%, 75% 0%, 0% 0%);
+    /*margin-right: -28rem;*/
+    background-image: linear-gradient(309.99deg, #1D85BA 50.11%, rgba(37, 139, 174, 0) 97.5%);
+    z-index: 1;
+    width: 174%;
+    clip-path: polygon(0% 95%, 91% 0%, 0% 0%);
+}
+.inner{
+    padding-right: 0px;
 }
 .right {
-    margin-left:-200px;
+
     position:relative;
     padding-left: 10px;
-    width: 45rem;
+    width: auto;
     z-index: 1;
 }
 
@@ -72,7 +79,7 @@
 
 .road {
     position: relative;
-    bottom: -5rem;
+
 
     padding-right: 8rem;
     color: #63E3FF;
@@ -80,17 +87,16 @@
     font-size: 70px;
     font-weight: 700;
 }
-.roadGap{
+.roadGap {
+    display: grid;
     justify-items: center;
     justify-content: end;
-    padding-right: 4rem;
+    /* justify-items: end; */
 }
 
 .map{
     position: relative;
-    bottom: -29px;
-    top: -2.5rem;
-    right: 6rem;
+
 }
 
 .phase{
@@ -118,30 +124,29 @@
 }
 
 .imgShip{
-    margin-left: 7rem;
+   /* top:0;*/
+    /*margin-left: 7rem;*/
     z-index: 1;
     position: absolute;
     width: 51%;
     float: left;
-    padding-top: 5rem
-}
-.subHead{
-    padding-bottom:2rem ;
 
 }
 
 .wave{
     position: absolute;
-    bottom: -3rem;
+    bottom: 0;
     left: 0;
 }
 
 .subMain {
     display: grid;
-    justify-content: space-evenly;
+
     justify-items: center;
-    align-items: end;
-    padding-bottom: 4rem;
+
+
+    /*justify-items: end;*/
+
 }
 .grid-rows-4 {
     grid-template-rows: repeat(4, minmax(0, 1fr));
@@ -177,7 +182,7 @@
 
 }
 .ship2{
-    margin-left: 23rem;
+   /* margin-left:24rem;*/
     margin-top: 25rem;
     vertical-align: middle;
 }
@@ -196,16 +201,44 @@
     padding-bottom: 4rem;
     align-items: start;
 }
-.left-20 {
-    left: 11rem;
-    top: 4rem;
-}
+
 .anc{
     justify-items: center;
 }
 
 
 
+
+/*.md\:rotate-\[396deg\;\] {
+    --tw-rotate: 344deg;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+@media (min-width: 768px)
+    .md\:mt-80 {
+        margin-top: 2rem;
+    }
+    @media (min-width: 768px)
+        .md\:left-28 {
+            left: 10rem;
+        }
+        .pr-10 {
+            padding-right: 2.5rem;
+        }
+        .rotate-\[358deg\;\] {
+            --tw-rotate: 358deg;
+            transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+        }
+        .left-52 {
+            left: 13rem;
+        }
+        .top-32 {
+            top: 2rem;
+        }
+        .absolute {
+            position: absolute;
+        }
+
+*/
 
 
 
