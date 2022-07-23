@@ -19,13 +19,13 @@ function RoadMapSecond() {
                         <h1 className={`${styles.heading} relative left-16`}>Road</h1>
                         <h1 className={`${styles.heading} relative top-16 right-52`}>Map</h1>
                     </div>
-                    <div className='absolute lg:top-32 left-52 md:left-28 md:mt-44 pr-10 rotate-[358deg;] md:rotate-[396deg;]'>
-                        <img src={lineshort} className={"lg:w-[500px] md:w-[400px] "}/>
+                    <div className='absolute 2xl:-top-24 2xl:rotate-[351deg;] 2xl:left-48 lg:top-32 md:left-28 md:mt-44 pr-10 md:rotate-[396deg;]'>
+                        <img src={lineshort} className={"2xl:w-[650px] lg:w-[500px] md:w-[400px] "}/>
 
 
                     </div>
 
-                    <div><img className={"ship2 md:ml-14 lg:ml-36 p-3 py-3 opacity-100"} src={ship} width={200}/></div>
+                    <div><img className={"ship2 2xl:ml-96  md:ml-14 lg:ml-36 p-3 py-3 opacity-100"} src={ship} width={200}/></div>
                 </div>
                 <div className='grid grid-rows-9 relative grid-flow-row gap-4 anc'>
 

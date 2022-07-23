@@ -67,7 +67,6 @@
     font-weight: 800;
     text-shadow: 2px 8px 20px rgba(0, 0, 0, 0.48);
 
-
 }
 
 .overlay {
@@ -136,5 +135,17 @@
     font-weight: 700;
     font-style: italic;
     font-family: 'poppins', sans-serif;
+
+}
+@media (max-width: 768px){
+
+    .heading1 {
+        color: #32FFEF;
+        font-family: 'poppins', sans-serif;
+        font-size: 40px !important;
+        font-weight: 800;
+        text-shadow: 2px 8px 20px rgba(0, 0, 0, 0.48);
+
+    }
 
 }
