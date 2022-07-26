@@ -1,4 +1,5 @@
 import React from 'react';
+import V2HalfBoat from "../assets/images/V2HalfBoat.svg";
 
 function V2SecondRoadMap() {
     return (
@@ -9,7 +10,9 @@ function V2SecondRoadMap() {
                 <p className="mapPara">200/1500 NFTs<br/>Drop daily until September 2022</p>
                     <h2 className="mapHeading">Phase 2</h2>
                     <p className="mapPara">500/1500 NFTs<br/>Drop daily until December 2022</p>
+
                 </div>
+
                 <div className="RightPhase">
                     <h1 className="V2Road">Road</h1>
                     <p className="V2Map">Map</p>
@@ -18,6 +21,9 @@ function V2SecondRoadMap() {
                     <h2 className="mapHeading">Phase 4</h2>
                     <p className="mapPara">1500/1500 NFTs.Final release.<br/>Promote in April 2023</p>
 
+                </div>
+                <div>
+                    <img className="HalfBoat rotate-[-2.87deg;]" src={V2HalfBoat}/>
                 </div>
             </div>
         </div>

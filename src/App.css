@@ -1,31 +1,31 @@
 /*v2MarineDao*/
-.maindiv{
+.mainDiv{
     height: 100%;
     width:100%;
     background: rgba(25, 49, 96, 1);
 
 }
-.mainheading{
+.mainHeading{
     margin-top: 6rem;
     color:rgba(42, 218, 204, 1);
-    font-family: 'Poppins';
+    font-family: 'Poppins' , sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 70px;
     line-height: 97%;
 }
-.mainheading2{
+.mainHeading2{
     padding-top: 20px;
-    font-family: 'Inter';
+    font-family: 'Inter' , sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 53px;
     color: #D9F7F5;
 }
-.mainheading3,.mainheading4,.mainheading5{
+.mainHeading3,.mainHeading4,.mainHeading5{
     padding-top: 20px;
-    font-family: Inter;
+    font-family: 'Inter' , sans-serif;
     font-size: 30px;
     font-weight: 300;
     line-height: 23px;
@@ -51,7 +51,7 @@
 
 }
 .mapHeading{
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 56px;
@@ -59,27 +59,31 @@
 
 }
 .mapPara{
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 22px;
     font-weight: 300;
     line-height: 39px;
     text-align: center;
     color:rgba(217, 247, 245, 1);
 }
-.leftPhase{
+.leftPhase {
+    margin-left: -15em;
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    margin-left: -15rem;
 }
-.RightPhase{
+.RightPhase {
+    margin-right: 19rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
 }
 .V2Road{
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 70px;
     font-weight: 700;
     line-height: 108px;
@@ -93,7 +97,7 @@
 .V2Map{
     position: relative;
     margin-top: -46px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 70px;
     font-weight: 700;
     text-align: center;
@@ -130,7 +134,7 @@
 
     padding-left:3rem;
     margin-top: 3rem;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     color: rgba(255, 255, 255, 1);
 
     font-size: 70px;
@@ -142,7 +146,7 @@
 .top-2{
     padding-top: 1.25rem;
     padding-left:3rem;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 3rem;
@@ -154,7 +158,7 @@
 .top-3{
 
     padding-top: 1.25rem;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: rgba(217, 247, 245, 1);
     font-size:26px;
     font-weight: 300;
@@ -178,7 +182,7 @@
     right:0;
     padding-right: 8rem;
     color: #63E3FF;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 70px;
     font-weight: 700;
     top:6rem;
@@ -203,10 +207,9 @@
 }
 
 .phase{
-
     position: relative;
     z-index: 1;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 25px;
     font-weight: 700;
     text-align: center;
@@ -257,7 +260,7 @@
 .phase2 {
     position: relative;
     z-index: 1;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 25px;
     font-weight: 700;
     text-align: center;
@@ -267,7 +270,7 @@
 
     position: relative;
     z-index: 1;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-align: center;
@@ -308,7 +311,36 @@
 .anc{
     justify-items: center;
 }
+/*V2ThirdRoadMap*/
+.V2Main{
+    background: rgba(25, 49, 96, 1);
 
+}
+.phaseV2{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    color: rgba(217, 247, 245, 1);
+    position: relative;
+
+}
+.V2para{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 39px;
+    text-align: center;
+    color: rgba(217, 247, 245, 1);
+
+}
+.HalfBoat {
+    margin-top: -32rem;
+    width: 100%;
+    margin-left: -1rem;
+    margin-left: 0rem;
+}
 @media (max-width: 768px){
     .imgShip {
         top: 5px !important;
@@ -331,7 +363,7 @@
         position: relative;
         padding-right: 8rem;
         color: #63E3FF;
-        font-family: Poppins;
+        font-family: 'Poppins', sans-serif;
         font-size: 35px !important;
         font-weight: 700;
         right: -22px !important;
@@ -340,7 +372,7 @@
     .phase2 {
         position: relative;
         z-index: 1;
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-size: 18px !important;
         font-weight: 700;
         text-align: center;
@@ -349,7 +381,7 @@
     .para2 {
         position: relative;
         z-index: 1;
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-size: 12px !important;
         font-weight: 300;
         text-align: center;
@@ -377,7 +409,7 @@
     .top {
         padding-left: -1rem !important;
         margin-top: 2rem !important;
-        font-family: Poppins;
+        font-family: 'Poppins', sans-serif;
         color: rgba(255, 255, 255, 1);
         font-size: 40px !important;
         font-weight: 800;
@@ -395,7 +427,7 @@
     }
     .top-3 {
         padding-top: 0.25rem !important;
-        font-family: 'Inter';
+        font-family: 'Inter', sans-serif;
         color: rgba(217, 247, 245, 1);
         font-size: 14px !important;
         font-weight: 300;
