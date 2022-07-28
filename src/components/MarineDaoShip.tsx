@@ -36,10 +36,12 @@ function MarineDaoShip() {
                 </div>
 
 
+
                 <div className={'absolute bottom-0 right-0 '}>
+
+
                     <img className={'opacity-40'} src={waves}/>
                 </div>
-
             </div>
 
         </div>

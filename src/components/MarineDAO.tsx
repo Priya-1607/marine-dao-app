@@ -32,3 +32,19 @@ const MarineDao = () => {
 };
 
 export default MarineDao;
+
+/*
+<p>This example demonstrates how to assign an "onmouseover" and "onmouseout" event to a h1 element.</p>
+
+<h1 id="demo" onMouseOver="mouseOver()" onMouseOut="mouseOut()">Mouse over me</h1>
+
+
+<script>
+    function mouseOver() {
+    document.getElementById("demo").style.color = "red";
+}
+
+    function mouseOut() {
+    document.getElementById("demo").style.color = "black";
+}
+</script>*/

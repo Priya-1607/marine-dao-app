@@ -3,8 +3,8 @@ import V2HalfBoat from "../assets/images/V2HalfBoat.svg";
 
 function V2SecondRoadMap() {
     return (
-        <div className="mapDiv">
-            <div className="mapSubDiv grid grid-cols-2 gap-y-48 space-between">
+        <div  className="break-before-column mapDiv">
+            <div className="mapSubDiv grid grid-cols-2 gap-y-0">
                 <div className="leftPhase">
                 <h2 className="mapHeading">Phase1</h2>
                 <p className="mapPara">200/1500 NFTs<br/>Drop daily until September 2022</p>
@@ -23,7 +23,8 @@ function V2SecondRoadMap() {
 
                 </div>
                 <div>
-                    <img className="HalfBoat rotate-[-2.87deg;]" src={V2HalfBoat}/>
+
+                    <img className="break-after-column HalfBoat rotate-[0.13deg]" src={V2HalfBoat}/>
                 </div>
             </div>
         </div>
