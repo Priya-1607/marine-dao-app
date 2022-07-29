@@ -7,7 +7,7 @@ import waves from './../assets/images/waves.svg'
 function MarineDaoShip() {
     return (
         <div>
-            <div className={`${styles.marineDaoShip} grid grid-cols-2 relative pb-40`}>
+            <div className={`${styles.marineDaoShip} grid grid-cols-2 relative 2xl:pb-40 md:pb-20`}>
 
                 <div className={'pl-12'}>
                     <img className={'absolute left-1/3 top-24'} width={70} src={lightHouse}/>
@@ -16,7 +16,7 @@ function MarineDaoShip() {
                 </div>
 
 
-                <div className={'pr-32 pt-24'}>
+                <div className={'2xl:pr-32 md:pr-8 pt-24'}>
                     <div className={`${styles.overlay}`}>
 
                         <h1 className={`${styles.heading1} z-10`}>MarineDAO Ship</h1>

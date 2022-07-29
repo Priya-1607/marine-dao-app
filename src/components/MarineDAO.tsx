@@ -4,12 +4,12 @@ import boat from '../assets/images/boat.svg'
 
 const MarineDao = () => {
     return (
-        <div className={`${styles.pageBack} flex pt-12`}>
-            <div className='justify-center content-start pl-12'>
+        <div className={`${styles.pageBack} flex pt-12 md:pt-0`}>
+            <div className='justify-center content-start pl-12 '>
                 <h2 className={styles.heading}>MarineDAO</h2>
-                <p className={`${styles.subHeading} py-5`}>Owning a ship has never <br/> been easier!
+                <p className={`${styles.subHeading} `}>Owning a ship has never <br/> been easier!
                 </p>
-                <p className={`${styles.description} py-5`}>
+                <p className={`${styles.description} py-5 md:py-0`}>
                     Mint an NFT, become a member of <br/> the community, divide profits and <br/> partake a role in the
                     future <br/>
                     of the company!

@@ -16,8 +16,8 @@ function RoadMapSecond() {
                     <div className={`${styles.roadmapOverlay} flex`}>
                 <img className={"lightHouseNoShadow"} src={lightHouseNoShadow} width={130}/>
 
-                        <h1 className={`${styles.heading} relative left-16`}>Road</h1>
-                        <h1 className={`${styles.heading} relative top-16 right-52`}>Map</h1>
+                        <h1 className={`${styles.heading} relative 2xl:left-16 md:left-4 2xl:top-0 md:top-16`}>Road</h1>
+                        <h1 className={`${styles.heading} relative 2xl:top-16 md:top-24 2xl:right-52 md:right-32`}>Map</h1>
                     </div>
                     <div className='absolute 2xl:-top-24 2xl:rotate-[351deg;] 2xl:left-48 lg:top-32 md:left-28 md:mt-44 pr-10 md:rotate-[396deg;]'>
                         <img src={lineshort} className={"2xl:w-[650px] lg:w-[500px] md:w-[400px] "}/>
@@ -25,9 +25,9 @@ function RoadMapSecond() {
 
                     </div>
 
-                    <div><img className={"ship2 2xl:ml-96  md:ml-14 lg:ml-36 p-3 py-3 opacity-100"} src={ship} width={200}/></div>
+                    <div><img className={"ship2 2xl:ml-96  md:ml-[5.5rem] lg:ml-36 p-3 py-3 opacity-100"} src={ship} width={200}/></div>
                 </div>
-                <div className='grid grid-rows-9 relative grid-flow-row gap-4 anc'>
+                <div className='grid grid-rows-9 relative grid-flow-row gap-4 anc md:pt-8'>
 
                     <div className={'grid grid-cols-1 gap-y-48 space-between'}>
                     <img className={"anchor"} src={anchor} width={80}/>

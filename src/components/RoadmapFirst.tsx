@@ -45,7 +45,7 @@ function RoadmapFirst() {
 
 
                 </div>
-                <div className={'text-center relative top-32'}>
+                <div className={'text-center relative'}>
                     <h2 className={`${styles.phases} `}>Phase 3</h2>
                     <span className={'flex justify-center'}>
                         <p className={styles.desc}>1000/1500 NFTs <br/>

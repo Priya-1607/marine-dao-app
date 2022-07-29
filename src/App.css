@@ -69,12 +69,13 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 14rem;
+    margin-top: 7rem;
     padding-right: 16rem;
+    row-gap: 10px;
 }
 .RightPhase {
-    margin-top: 2rem;
-    margin-right: 19rem;
+    margin-top: 6rem;
+    margin-right: 17rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -246,9 +247,6 @@
 .subMain {
     display: grid;
 
-    justify-items: center;
-
-
     /*justify-items: end;*/
 
 }
@@ -333,7 +331,7 @@
 }
 .HalfBoat {
     width: 100%;
-    margin-top: -9rem;
+    margin-top: -17rem;
 }
 @media (max-width: 768px){
     .imgShip {
@@ -429,6 +427,21 @@
         text-align: left;
         padding-left: -1rem !important;
     }
+    .subMain {
+        display: grid;
+        justify-items: center;
+        padding-bottom: 0rem !important;
+        align-items: start;
+    }
+    .lightHouseNoShadow{
+        justify-content: flex-start;
+        display: grid;
+        padding-bottom: 20rem;
+        align-items: center;
+        justify-items: center;
+
+    }
+
 
 
 }
